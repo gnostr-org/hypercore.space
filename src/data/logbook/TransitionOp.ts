@@ -188,7 +188,7 @@ class TransitionOp<T extends ForkableObject> extends MutationOp {
 
 
         const reachable = new HashedSet<MutationOp>();
-        const toVisit   = new Set<Hash>;
+        const toVisit   = new Set<Hash>();
 
         toVisit.add(this.transitionEndOp.getLastHash());
 
