@@ -1,0 +1,3 @@
+[submodule "example"]
+	path = examples
+	url = git@github.com:gnostr-org/hyper.space.examples.git
